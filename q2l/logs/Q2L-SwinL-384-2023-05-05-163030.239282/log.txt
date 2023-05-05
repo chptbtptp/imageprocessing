@@ -1,0 +1,13 @@
+[05/05 16:30:30.239]: Command: q2l_infer.py --dataname heart -a Q2L-SwinL-384 --img_size 224 -b 16 --num_labels 3 --resume checkpoint/Q2L-SwinL-384/heart/3/model_best.pth.tar
+[05/05 16:30:30.239]: Full config saved to logs/Q2L-SwinL-384-2023-05-05-16:30:30.239282/config.json
+[05/05 16:30:30.239]: world size: 1
+[05/05 16:30:30.239]: dist.get_rank(): 0
+[05/05 16:30:30.239]: local_rank: 0
+[05/05 16:30:32.875]: => loading checkpoint 'checkpoint/Q2L-SwinL-384/heart/3/model_best.pth.tar'
+[05/05 16:30:35.813]: Test: [0/6]  Time 2.740 (2.740)  Loss 80.002 (80.002)  Mem 1641
+[05/05 16:30:36.611]: => synchronize...
+[05/05 16:30:36.614]:   mAP: 99.12699586893136
+[05/05 16:30:36.615]:    aps: [100.       97.48851  99.89247]
+[05/05 16:30:36.615]:    recs: [83.88889 82.85185 83.85185]
+[05/05 16:30:36.615]:    precs: [69.58612 68.62729 69.54908]
+[05/05 16:30:36.615]:  * mAP 99.1
